@@ -40,6 +40,7 @@ Use let only when the value must change
 const AccountID =1891928
 let AccountName = "Naruto"
 var AccountEmail= "narut@google.com"
+var AccountEmail= "kk"// var can be redeclared causing issue if it is used agin
 var AccountPassword= "123445"
 Accountstate= "Mumbai"
 console.table([AccountID,AccountEmail,AccountPassword, Accountstate,AccountName]);
