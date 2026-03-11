@@ -14,9 +14,16 @@ let e = BigInt(3456)
 let f = "India is Champion"
 let g = Symbol("@#$")
 let h= undefined
+let i;
+const j= undefined
+console.log([a, b])
 
-console.log(typeof d)
-
+let k ={
+  Test:78
+  //Test: "test"
+}
+ console.log(k.Test)
+ console.log(k['Test'])
 /*
 Your code:
 
@@ -99,7 +106,7 @@ Symbol() → used to create unique identifiers
 */
 
 // Non primitive data type Object
-
+/*
 const list = {
     Tshirt: {item:"Tshirt",Quantity:89},
     Shirt: 09,
@@ -108,3 +115,4 @@ const list = {
 
 console.log(list.Tshirt.item + "Quantity =" + list.Tshirt.Quantity)
 console.log("Shirt Quantity =" +  list.Shirt)
+*/
