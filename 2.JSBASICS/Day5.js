@@ -18,7 +18,7 @@ e/= 5
 console.log(e)
 let f= 2
 f **= 5
-console.log(f)
+console.log([f])
 
 // Comparison operator
 
