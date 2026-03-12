@@ -140,6 +140,9 @@ console.log(PolicyDetails.Year1Premium != PolicyDetails.Year10Premium)
 console.log(PolicyDetails.Year1Premium == PolicyDetails.Year10Premium)
 console.log(PolicyDetails.Year1Premium === PolicyDetails.Name)
 console.log(PolicyDetails.Year1Premium !== PolicyDetails.Renewal)
+console.log(PolicyDetails.Year1Premium != PolicyDetails.Renewal && PolicyDetails.Year10Premium == PolicyDetails.Renewal)
+console.log(PolicyDetails.Year1Premium != PolicyDetails.Renewal || PolicyDetails.Year10Premium == PolicyDetails.Renewal)
+
 
 console.table([PolicyDetails])
 
