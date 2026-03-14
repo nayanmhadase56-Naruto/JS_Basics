@@ -5,7 +5,7 @@ if(a>18){
     console.log("It is valid age")
 }
 
-else if(a===17)
+else if(a===17)                               //for every if there will condition associate with it
 {
     console.log("IWait for one year")
 }

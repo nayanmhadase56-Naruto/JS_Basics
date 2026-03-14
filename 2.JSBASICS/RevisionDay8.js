@@ -15,11 +15,11 @@ console.log(policyDetails.age > 18)
 console.log(policyDetails.renewal === true)
 
 console.log(
-policyDetails.age > 18 && policyDetails.renewal === true
+policyDetails.age > 18 && policyDetails.renewal === false
 )
 
 console.log(
-policyDetails.age > 60 || policyDetails.renewal === true
+policyDetails.age >= 45 || policyDetails.renewal === false
 )
 
 console.table([policyDetails])
