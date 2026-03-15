@@ -10,6 +10,7 @@ const policyDetails = {
 policyDetails.renewalDate = "01/01/2025"
 policyDetails.year1Premium = 900009
 policyDetails['Nominee'] = "Keshav"
+policyDetails['Agent name']= "jack"
 
 console.log(policyDetails.age > 18)
 console.log(policyDetails.renewal === true)
